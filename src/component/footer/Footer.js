@@ -17,7 +17,7 @@ function Footer() {
       alert("Left message column blank");
     } else {
       console.log("Form submitted successfully!", data);
-      const url = "http://localhost:3213/submit-form";
+      const url = "https://sysnixbackend-4.onrender.com/submit-form";
 
       axios.post(url, data)
         .then(res => {

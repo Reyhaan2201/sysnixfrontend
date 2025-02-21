@@ -71,7 +71,7 @@ function Product() {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get("http://localhost:3213/getfiles");
+          const response = await axios.get("https://sysnixbackend-4.onrender.com/getfiles");
           if (Array.isArray(response.data)) {
             setData(response.data);
           } else {
@@ -165,7 +165,7 @@ function Product() {
                 <div className="project-item get-item">
                   <div className="thumb getthumb">
                     {item.image && (
-                      <img src={`http://localhost:3213/images/` + item.image} alt={item.title} />
+                      <img src={`https://sysnixbackend-4.onrender.com/images/` + item.image} alt={item.title} />
                     )}
                     <div className="hover">
                       <a className="open-popup" href="/"><i className="dev_project_icon"></i></a>

@@ -31,7 +31,7 @@ function Addata() {
     formData.append('image', file);
 
     try {
-      axios.post("http://localhost:3213/addfile", formData)
+      axios.post("https://sysnixbackend-4.onrender.com/addfile", formData)
       .then(res=>{
        console.log(res)
        if(res.data.Status === "Success")

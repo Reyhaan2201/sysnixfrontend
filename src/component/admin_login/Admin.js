@@ -12,7 +12,7 @@ function Admin() {
 
   const onSubmit = async (data) => {
     try {
-      const api = "http://localhost:3213/admin/admin-form";
+      const api = "https://sysnixbackend-4.onrender.com/admin/admin-form";
       const res = await axios.post(api, data);
       console.log(res)
       setSuccessMessage("Logged in successfully!");

@@ -24,7 +24,7 @@ function Sigup() {
         setError(validationErrors);
 
         if (Object.keys(validationErrors).length === 0) {
-            axios.post("http://localhost:3213/signup", values)
+            axios.post("https://sysnixbackend-4.onrender.com/signup", values)
                 .then(res => {
                     if (res.data.message === "User registered successfully") {
                         console.log(res)

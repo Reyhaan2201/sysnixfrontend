@@ -38,7 +38,7 @@ function Carrer() {
     formDataToSend.append('resume', formData.resume);
     
     try {
-      const response = await fetch('http://localhost:3213/api/job-application', {
+      const response = await fetch('https://sysnixbackend-4.onrender.com/api/job-application', {
         method: 'POST',
         body: formDataToSend,
       });
