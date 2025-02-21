@@ -1,0 +1,40 @@
+@import "compass/css3";
+
+*, :before, :after{ box-sizing: border-box; }
+// FONTS
+$sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+// COLORS
+$orange: #DF4500;
+$gray: #35302D;
+$gray-shine: #3C3735;
+$white-off: #DFDBD9;
+
+
+
+// MAIN NAV
+.main-nav{
+  
+  ul{
+    border-top: solid 1px $gray-shine;
+  }
+  
+  li{
+    border-bottom: solid 1px $gray-shine;
+  }
+  
+  a{
+    padding: 1.1em 0;
+    color: $white-off;
+    font: 400 1.125em $sans;
+    text:{
+      align: center;
+      transform: lowercase;
+    }
+    
+    &:hover{
+      color: #fff;
+    }
+  }
+}
+

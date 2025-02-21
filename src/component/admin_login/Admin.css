@@ -1,0 +1,142 @@
+.admin_form {
+    position: relative;
+    height: 200px;
+}
+
+div.admin_field {
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 450px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.admin_field h1 {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}
+
+div.admin_form form {
+    background-color: white;
+    padding: 30px 60px;
+}
+
+div.admin_form form div.input_field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+div.admin_form form div.input_field input {
+    background: #f2f4f6;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+}
+
+div.admin_form form button {
+    width: 100%;
+    background-color: rgba(7, 164, 7, 0.718);
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    font-family: 400;
+    margin: 10px 0;
+}
+
+div.admin_form form div.extra {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.admin_form form div.extra a:first-child {
+    color: darkgray;
+    text-decoration: none;
+}
+
+div.admin_form form div.extra a:last-child {
+    color: grey;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .admin_form{
+        height: 300px;
+    }
+    div.admin_field {
+        width: 60%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    div.admin_field h1 {
+        font-size: 18px;
+    }
+
+    div.admin_form form {
+        padding: 20px;
+    }
+
+    div.admin_form form div.input_field input {
+        width: 100%;
+    }
+
+    div.admin_form form button {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.admin_field {
+        width: 100%;
+        min-width: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    div.admin_form form {
+        padding: 15px;
+    }
+
+    div.admin_form form div.input_field {
+        margin: 5px 0;
+    }
+
+    div.admin_form form div.input_field input {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+
+    div.admin_form form button {
+        margin: 5px 0;
+    }
+
+    div.admin_field h1 {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 320px){
+    div.admin_form form div.extra{
+        /* font-size: 10px; */
+        /* flex-direction: column; */
+        margin: 10px 0;
+    }
+    div.admin_form form div.extra a:first-child{
+        margin: 10px 0;
+    }
+}
+

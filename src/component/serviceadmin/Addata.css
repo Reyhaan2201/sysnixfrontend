@@ -1,0 +1,96 @@
+.add-container{
+  border: 1px solid red;
+  padding: 20px 0;
+  background: url("./homa-appliances-pWUyHVJgLhg-unsplash.jpg") no-repeat center/cover;
+}
+
+.add {
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #f9f9f983;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .add h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .addlabel {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .add input[type="text"],
+  .add input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .add input[type="text"]:focus,
+  .add input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .add button {
+    width: 100%;
+    padding: 10px;
+    background-color: #404040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .add button:hover {
+    background-color: #646464;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .add {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .add h1 {
+      font-size: 24px;
+    }
+  
+    .add button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .add {
+      max-width: 95%;
+      padding: 10px;
+    }
+  
+    .add h1 {
+      font-size: 20px;
+    }
+  
+    .add button {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  

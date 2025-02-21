@@ -1,0 +1,114 @@
+.verify-container {
+    width: 100%;
+    background: url("./Creative\ Business\ Tech\ Blue\ Poster\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg") no-repeat center/cover;
+    padding: 50px 0;
+}
+
+.verify-modal {
+    margin: auto;
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.img-container, .form-container {
+    flex: 1;
+}
+
+.img-container img {
+    animation: rotate 0.5s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.form-container {
+    padding: 20px 0;
+    /* border: 1px solid red; */
+}
+
+.input-form h1 {
+    font-size: 34px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.form-container .input-form label {
+    display: block;
+    font-size: 20px;
+    margin: 20px 0 5px 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.form-container .input-form input[type="email"], input[type="password"] {
+    width: 97%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.form-container .input-form ::placeholder {
+    font-size: 15px;
+}
+
+.form-container .input-form button {
+    width: 97%;
+    margin: 20px 5px;
+    padding: 8px 0;
+    font-size: 18px;
+    color: white;
+    background-color: #404040;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+
+.form-container .input-form button:hover {
+    background-color: #ef1923;
+    border: 1px solid #ef1923;
+    color: white;
+    transition: background-color 0.3s ease-in;
+}
+
+@media (max-width: 425px) {
+    .verify-modal {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .img-container, .form-container {
+        flex: none;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .input-form h1 {
+        font-size: 28px;
+    }
+    .form-container .input-form label {
+        font-size: 18px;
+        margin: 10px 0 5px 10px;
+    }
+    .form-container .input-form input[type="email"], input[type="password"] {
+        width: 95%;
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .form-container .input-form button {
+        width: 95%;
+        margin: 10px 5px;
+        padding: 8px 0;
+        font-size: 16px;
+    }
+}

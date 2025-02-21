@@ -1,0 +1,75 @@
+
+
+
+/* jihviuefhfiuer */
+.padding {
+  padding: 100px 0;
+}
+
+.paddv-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  color: #fff;
+}
+
+.light-title {
+  font-weight: lighter;
+}
+
+.add-margin {
+  margin-bottom: 20px;
+}
+
+.margt-50 {
+  margin-top: 50px;
+}
+
+.section-desc {
+  color: #fff;
+}
+
+.featured-slider .fitem {
+  text-align: center;
+}
+
+.featured-slider .thumb {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.featured-slider .thumb img {
+  width: 400px; /* Adjust the width as per your requirement */
+  height: 150px; /* Adjust the height as per your requirement */
+  object-fit: cover;
+  /* object-position: center; */
+}
+
+.featured-slider .content h2 {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.featured-slider .content h2.active {
+  color: orange;
+}
+
+.featured-slider .content a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.featured-slider .content a:hover {
+  text-decoration: underline;
+}
+
+/* Custom styles for dots */
+.slick-dots li button:before {
+  color: white; /* Dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange; /* Active dot color */
+}

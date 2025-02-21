@@ -1,0 +1,33 @@
+.dev-revslider .slick-dots,
+.dev-revslider .slick-prev,
+.dev-revslider .slick-next {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.dev-revslider:hover .slick-dots,
+.dev-revslider:hover .slick-prev,
+.dev-revslider:hover .slick-next {
+  opacity: 1;
+}
+
+.tp-caption {
+  color: white;
+  text-align: center;
+}
+
+.dev-underline-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dev-large-title {
+  font-size: 36px;
+}
+
+.dev-capbtn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
